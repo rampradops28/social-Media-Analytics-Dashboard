@@ -1,0 +1,24 @@
+.ytanalysis-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .metrics-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .saved-metrics, .current-metrics {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .saved-metrics h3, .current-metrics h3 {
+    color: #2196f3;
+  }
+  

@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  padding: 1rem;
+}
+
+.forms-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.signin-signup {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+  font-weight:600;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+}
+
+.input-field i {
+  color: #acacac;
+  margin-right: 1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.btn {
+  width: 100%;
+  background-color: #5995fd;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+
+.social-text {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  color: #333;
+  font-size: 1.1rem;
+  margin: 0 0.4rem;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+
+.error-message {
+  color: #ff3333;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.link-btn {
+  color: #4481eb;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.link-btn:hover {
+  color: #04befe;
+}
+
+.panels-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 55%;
+  height: 100vh;
+  padding-left: 2%;
+}
+
+.panel .content {
+  color: #fff;
+  text-align: left;
+}
+
+.panel h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.panel p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .forms-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .signin-signup {
+    width: 100%;
+    padding: 2rem 1.5rem;
+  }
+
+  .panels-container {
+    display: none;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .social-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .signin-signup {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .input-field {
+    padding: 0.5rem;
+  }
+}

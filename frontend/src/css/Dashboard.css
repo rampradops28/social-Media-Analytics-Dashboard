@@ -1,0 +1,112 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+nav .menu a {
+  color: #2196f3;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  
+  padding: 20px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.overview h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #2196f3;
+}
+
+.overview p {
+  font-size: 18px;
+  color:black;
+}
+
+.social-media-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.social-media-option {
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.social-media-option img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-media-option p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:black;
+}
+
+.social-media-option:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.social-media-option:hover img {
+  box-shadow: 0 8px 16px rgba(2, 10, 254, 0.3);
+}
+
+.description {
+  max-width: 600px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: lightslategray
+}
+
+footer {
+  background-color: #2196f3;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}

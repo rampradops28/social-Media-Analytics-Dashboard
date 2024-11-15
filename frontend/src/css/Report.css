@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2196f3;
+  }
+  
+  nav .menu a {
+    color: #2196f3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  .report-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e3f2fd;
+  }
+  
+  .report-header h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .report-options {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .report-options button {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sample-charts {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .sample-charts .chart {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  header nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2196f3;
+  }
+  
+  header .menu a {
+    color: #2196f3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .report-header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .report-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .report-options button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .report-options button:hover {
+    background-color: #1976d2;
+  }
+  
+  .sample-charts {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .chart {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .comparison-view {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .comparison-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .comparison-view th, .comparison-view td {
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .comparison-view th {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .comparison-view td {
+    color: #333;
+  }
+  
+  .comparison-view tbody tr:nth-child(even) {
+    background-color: #f4f6f8;
+  }
+
+  footer {
+    background-color: #2196f3;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
