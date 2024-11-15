@@ -86,7 +86,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 // const fetchVideoMetrics = async (req, res) => {
 //   try {
 //     const searchQuery = req.query.search_query;
-//     const apiKey = process.env.YOUTUBE_API_KEY || 'AIzaSyBJZUadY-hJwrWE8oYheDdjWVIVG3ZUVDY';
+//     const apiKey = process.env.YOUTUBE_API_KEY || 'Your API key';
 //     const apiUrl = "https://www.googleapis.com/youtube/v3";
 
 //     if (!searchQuery) {
